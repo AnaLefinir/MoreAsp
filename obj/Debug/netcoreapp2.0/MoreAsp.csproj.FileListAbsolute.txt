@@ -1,0 +1,11 @@
+D:\Ana\Estudio Programacion\MoreAsp\obj\Debug\netcoreapp2.0\MoreAsp.csprojResolveAssemblyReference.cache
+D:\Ana\Estudio Programacion\MoreAsp\obj\Debug\netcoreapp2.0\MoreAsp.csproj.CoreCompileInputs.cache
+D:\Ana\Estudio Programacion\MoreAsp\obj\Debug\netcoreapp2.0\MoreAsp.AssemblyInfoInputs.cache
+D:\Ana\Estudio Programacion\MoreAsp\obj\Debug\netcoreapp2.0\MoreAsp.AssemblyInfo.cs
+D:\Ana\Estudio Programacion\MoreAsp\bin\Debug\netcoreapp2.0\MoreAsp.deps.json
+D:\Ana\Estudio Programacion\MoreAsp\bin\Debug\netcoreapp2.0\MoreAsp.runtimeconfig.json
+D:\Ana\Estudio Programacion\MoreAsp\bin\Debug\netcoreapp2.0\MoreAsp.runtimeconfig.dev.json
+D:\Ana\Estudio Programacion\MoreAsp\bin\Debug\netcoreapp2.0\MoreAsp.dll
+D:\Ana\Estudio Programacion\MoreAsp\bin\Debug\netcoreapp2.0\MoreAsp.pdb
+D:\Ana\Estudio Programacion\MoreAsp\obj\Debug\netcoreapp2.0\MoreAsp.dll
+D:\Ana\Estudio Programacion\MoreAsp\obj\Debug\netcoreapp2.0\MoreAsp.pdb

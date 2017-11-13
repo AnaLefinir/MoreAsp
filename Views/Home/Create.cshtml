@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+<body>
+    @model MoreAsp.Models.Character
+    <h2>Create</h2>
+    <hr/>
+    <form asp-action="Create" asp-controller="Character">
+        <div class="form-horizontal">
+            <h4>Character</h4>
+            <hr/>
+            <div class="form-group">
+                <div class="row">
+                    <!-- asp-for will populate the value of our label based on the field's Name-->
+                    <label class="control-label col-md-2" asp-for="Name"></label>
+                    <div class="col-md-10">
+                        <!-- asp-for will change the type of the input, set the id an dthe name of that input
+                    to match the name of that property-->
+                        <input class="form-control" asp-for="Name" />
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <!--Data Annotations is used here-->
+                    <label class="control-label col-md-2" asp-for="IsActive">IsActive</label>
+                    <div class="col-md-10">
+                        <input class="form-control" type="checkbox" id="IsActive" name="IsActive"/>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </form>
+</body>
+</html>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
